@@ -10,7 +10,7 @@ function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center space-x-2">
               <Anchor className="w-8 h-8 text-white" />
-              <span className="text-2xl font-bold text-white">Kormilo.io</span>
+              <span className="text-2xl font-bold text-white">Kormilo</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#services" className="text-blue-100 hover:text-white transition-colors">Services</a>
