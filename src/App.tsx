@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Brain, Workflow, Building2, Users2, Code2, ArrowRight, Send, BookOpen, TrendingUp, Lightbulb, ChevronRight } from 'lucide-react';
+import { Anchor, Brain, Workflow, Building2, Users2, Code2, ArrowRight, Send, TrendingUp, Lightbulb, BookOpen, ChevronRight, Target, Shield, Zap, Globe } from 'lucide-react';
 
 function App() {
   return (
@@ -141,6 +141,93 @@ function App() {
               <span>View All Insights</span>
               <ChevronRight className="w-4 h-4" />
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-24 bg-gradient-to-br from-blue-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-blue-900 mb-6">Pioneering AI-Driven Business Transformation</h2>
+              <p className="text-blue-600 text-lg mb-8">
+                Since 2020, we've been at the forefront of helping businesses harness the power of AI to transform their operations, enhance decision-making, and drive innovation.
+              </p>
+              
+              <div className="grid sm:grid-cols-2 gap-6 mb-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                    <Target className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-blue-900 mb-2">Our Mission</h3>
+                    <p className="text-blue-600">To democratize AI adoption and empower businesses to thrive in the AI era.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                    <Shield className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-blue-900 mb-2">Our Values</h3>
+                    <p className="text-blue-600">Innovation, integrity, and client success drive everything we do.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">200+</div>
+                  <div className="text-blue-900">Projects Delivered</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
+                  <div className="text-blue-900">Client Satisfaction</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+                  <div className="text-blue-900">AI Experts</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
+                  <div className="text-blue-900">Countries Served</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+                    <Zap className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-blue-900">Industry Leadership</h3>
+                </div>
+                <p className="text-blue-600">
+                  Our team of AI experts regularly contributes to leading tech publications and speaks at major industry conferences.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+                    <Globe className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-blue-900">Global Impact</h3>
+                </div>
+                <p className="text-blue-600">
+                  We've helped organizations across 6 continents implement AI solutions that drive real business value.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=200&h=200" alt="Team collaboration" className="w-full h-24 object-cover rounded-lg" />
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=200&h=200" alt="Office space" className="w-full h-24 object-cover rounded-lg" />
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=200&h=200" alt="Team meeting" className="w-full h-24 object-cover rounded-lg" />
+                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=200&h=200" alt="Tech workspace" className="w-full h-24 object-cover rounded-lg" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
