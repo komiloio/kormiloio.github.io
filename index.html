@@ -1,13 +1,191 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI-Driven Transformation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kormilo | AI Operating Systems for Growing Companies</title>
+    <meta
+      name="description"
+      content="Kormilo helps leadership teams turn AI ambition into operating systems: workflows, governance, automation, and adoption that produce measurable results."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kormilo home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img">
+            <circle cx="12" cy="5" r="3" />
+            <path d="M12 8v14" />
+            <path d="M5 12H2a10 10 0 0 0 20 0h-3" />
+          </svg>
+        </span>
+        <span>Kormilo</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#method">Method</a>
+        <a href="#proof">Proof</a>
+      </nav>
+      <a class="header-cta" href="#contact">Start a Brief</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">AI transformation, steered by operators</p>
+          <h1 id="hero-title">Build AI systems your company can actually run.</h1>
+          <p class="hero-copy">
+            Kormilo helps leadership teams identify the work worth automating, redesign the process around it,
+            and ship practical AI systems that people trust enough to use.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#contact">Map the first 90 days</a>
+            <a class="secondary-button" href="#method">See the method</a>
+          </div>
+          <dl class="hero-stats" aria-label="Kormilo focus areas">
+            <div>
+              <dt>90 days</dt>
+              <dd>from opportunity map to first production workflow</dd>
+            </div>
+            <div>
+              <dt>3 layers</dt>
+              <dd>strategy, systems, adoption</dd>
+            </div>
+            <div>
+              <dt>1 owner</dt>
+              <dd>clear accountability from pilot to scale</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="section-kicker">What changes</div>
+        <div class="intro-grid">
+          <h2>Less theater. More operating leverage.</h2>
+          <p>
+            Most AI programs stall because they start with tools. Kormilo starts with the work:
+            decisions, handoffs, exceptions, constraints, and the people who have to live with the system after launch.
+          </p>
+        </div>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <span class="section-kicker">Where we help</span>
+          <h2 id="work-title">AI programs with a clear business spine.</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="card-number">01</span>
+            <h3>Workflow intelligence</h3>
+            <p>Find the bottlenecks, judgment calls, and repetitive loops where AI can reduce cycle time without creating operational drag.</p>
+          </article>
+          <article class="work-card">
+            <span class="card-number">02</span>
+            <h3>Automation design</h3>
+            <p>Turn priority workflows into human-in-the-loop systems with clear triggers, permissions, reviews, and failure paths.</p>
+          </article>
+          <article class="work-card">
+            <span class="card-number">03</span>
+            <h3>AI governance</h3>
+            <p>Define the guardrails teams need to move quickly: data boundaries, evaluation criteria, risk controls, and ownership.</p>
+          </article>
+          <article class="work-card">
+            <span class="card-number">04</span>
+            <h3>Adoption enablement</h3>
+            <p>Equip teams with rituals, training, and measurement so AI becomes part of daily execution instead of a side project.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section method" id="method" aria-labelledby="method-title">
+        <div class="method-panel">
+          <div>
+            <span class="section-kicker">The Kormilo method</span>
+            <h2 id="method-title">A practical path from ambition to adoption.</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <span>Discover</span>
+              <p>Interview operators, map workflows, and rank opportunities by value, risk, and readiness.</p>
+            </li>
+            <li>
+              <span>Design</span>
+              <p>Shape the operating model, system architecture, evaluation loop, and adoption plan before tooling decisions harden.</p>
+            </li>
+            <li>
+              <span>Deploy</span>
+              <p>Build the first production workflow, measure it against baseline, and train the owners who will run it.</p>
+            </li>
+            <li>
+              <span>Scale</span>
+              <p>Extend the pattern into a portfolio of AI-enabled workflows with governance and repeatable delivery cadence.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section proof" id="proof" aria-labelledby="proof-title">
+        <div class="section-heading">
+          <span class="section-kicker">Proof patterns</span>
+          <h2 id="proof-title">The work we make measurable.</h2>
+        </div>
+        <div class="proof-grid">
+          <article>
+            <strong>Service operations</strong>
+            <p>AI triage, response drafting, and exception routing for teams buried in queues.</p>
+          </article>
+          <article>
+            <strong>Sales and customer teams</strong>
+            <p>Account intelligence, follow-up workflows, and meeting prep that keeps humans in control.</p>
+          </article>
+          <article>
+            <strong>Finance and risk</strong>
+            <p>Review workflows that surface anomalies, document rationale, and preserve auditability.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <span class="section-kicker">Start here</span>
+          <h2 id="contact-title">Bring one messy workflow. Leave with a plan.</h2>
+          <p>
+            Share the process you suspect AI could improve. Kormilo will help frame the opportunity,
+            identify the risks, and outline the first useful build.
+          </p>
+        </div>
+        <form class="contact-form" action="mailto:hello@kormilo.io" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            <span>What workflow should AI improve?</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit">Send the brief</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Kormilo</span>
+      <span>AI operating systems for companies ready to steer.</span>
+    </footer>
   </body>
 </html>
