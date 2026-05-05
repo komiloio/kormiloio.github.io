@@ -426,6 +426,40 @@ h1 {
   background: var(--ink);
 }
 
+.thank-you-page {
+  min-height: 100svh;
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(7, 20, 33, 0.95), rgba(7, 20, 33, 0.72)),
+    url("assets/kormilo-ai-operations.png") center / cover;
+}
+
+.thank-you {
+  width: min(980px, calc(100% - 40px));
+  min-height: 100svh;
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  gap: 42px;
+  padding: 48px 0;
+}
+
+.thank-you-brand {
+  color: var(--white);
+}
+
+.thank-you-panel h1 {
+  max-width: 800px;
+  font-size: clamp(3rem, 7vw, 6rem);
+}
+
+.thank-you-panel p {
+  max-width: 620px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
 @media (max-width: 900px) {
   .site-header {
     grid-template-columns: 1fr auto;

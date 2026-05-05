@@ -165,7 +165,8 @@
             identify the risks, and outline the first useful build.
           </p>
         </div>
-        <form class="contact-form" action="mailto:hello@kormilo.io" method="post" enctype="text/plain">
+        <form class="contact-form" name="contact" method="post" action="/thank-you.html" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
           <label>
             <span>Name</span>
             <input name="name" autocomplete="name" required>
