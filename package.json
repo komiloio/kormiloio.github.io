@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html thank-you.html styles.css CNAME .nojekyll dist/ && cp -R assets dist/assets"
+    "build": "mkdir -p dist/fleet/mycelium/oauth/callback && cp index.html thank-you.html styles.css CNAME .nojekyll dist/ && cp -R assets dist/assets && cp fleet/mycelium/oauth/callback/index.html fleet/mycelium/oauth/callback/callback.js dist/fleet/mycelium/oauth/callback/"
   }
 }
