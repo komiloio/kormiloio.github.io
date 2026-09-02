@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    >
+    <title>Return to Mycelium</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #101713; color: #eef7f0; }
+      main { width: min(32rem, calc(100% - 3rem)); text-align: center; }
+      h1 { margin-bottom: .75rem; }
+      p { color: #b9c9bd; line-height: 1.55; }
+      a { display: inline-block; margin-top: 1rem; padding: .8rem 1.1rem; border-radius: .6rem; background: #7de29b; color: #102116; font-weight: 700; text-decoration: none; }
+      [hidden] { display: none; }
+    </style>
+    <script src="callback.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Returning to Mycelium…</h1>
+      <p id="message">Obsidian should open automatically. You may close this page after it opens.</p>
+      <a id="open-obsidian" href="obsidian://mycelium-oauth" hidden>Open Obsidian</a>
+    </main>
+  </body>
+</html>
